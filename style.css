@@ -118,4 +118,17 @@ p{
     float: left;
     text-align: center;
 }
-
+h2 {
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: -1px;
+	background-color: rgb(51,51,51);
+	color: white;
+	font-style: italic;
+  }
+  .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
