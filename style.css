@@ -107,11 +107,11 @@ body {
   	
 }
 p{
+	font-size: x-large;
 	text-align: left;
 	font-weight:600;
-	padding-left: 20px;
-	padding-right: 20%;
 	font-style: italic;
+	
 }
 .link {
     width: 50%;
@@ -132,3 +132,7 @@ h2 {
 	margin-right: auto;
 	width: 50%;
   }
+  img {
+	width: 100%;
+	object-fit: contain;
+}	
