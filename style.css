@@ -113,4 +113,9 @@ p{
 	padding-right: 20%;
 	font-style: italic;
 }
+.link {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
 
