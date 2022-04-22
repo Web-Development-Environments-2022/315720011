@@ -130,9 +130,9 @@ h2 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
   }
-  img {
-	width: 100%;
-	object-fit: contain;
-}	
+  .centerImage
+{
+ text-align:center;
+ display:block;
+}
