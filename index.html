@@ -9,7 +9,7 @@
 
 <div id="logo">
 
-    <img src="https://1000logos.net/wp-content/uploads/2018/01/San-Antonio-Spurs-Logo-2002.png" height="80" width="100">
+    <img src="https://1000logos.net/wp-content/uploads/2018/01/San-Antonio-Spurs-Logo-2002.png" height="70" width="100">
 
 </div>
 <li><a href="#about">About Me &#9997</a></li>
@@ -176,7 +176,7 @@
 <h2><b>Give me a like &#128077</b></h2>
 <br/>
 
-<p style="color: blue; text-align: center; font-size: 60px;"><b>Press the like button and connect to Facebook to like this page &#128591 </b></p>
+<p style="color: white; text-align: center; font-size: 60px;"><b>Press the like button and connect to Facebook to like this page &#128591 </b></p>
 
 <br/>
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2022.github.io%2Fassignment1-omermaim%2F&width=400&layout=button&action=like&size=large&share=false&height=65&appId" width="400" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" class="center"></iframe>
@@ -188,6 +188,9 @@
 
 <section id="qrcoder" class="section">
 <h2>Scan my code &#128241</h2>
+
+
+<br/>
 <p style="color: white; text-align: center; font-size:50px;"><b>The following QR will direct you to this website:</b></p>
 <br/>
 
@@ -224,46 +227,33 @@
 <tr>
     <td width="20%">
         <h3>
-            Read only web
+          Static Read only web
         </h3>
     </td>
     <td width="20%">
         <h3>
-            Read and write Web
+          Dynamic Read and write Web
         </h3>
     </td>
         <td width="20%">
         <h3>
-            Read, Write and execute web
+          Read, Write and execute web
         </h3>
 </tr>
 <tr>
     <td width="20%">
         <h3>
-            Web 1.0 was all about
-            static content, one way
-            publishing of content
-            without any real
-            interaction between
-            readers or publishers
-            or each other.
+          Company Focus - companies are responsible for publishing content that people consume.
            </h3>
     </td>
     <td width="20%">
         <h3>
-            Web 2.0 is more about 2 way
-            communication through social
-            networking, blogging, wikis,
-            tagging, user generated content
-            and video.
+          Community Focus - People are responsible for publishing content that is designed  for consumption by other people or companies.  Companies build platforms that allow people to post content.
           </h3>
     </td>
     <td width="20%">
         <h3>
-            Web 3.0 is curiusly undefined.
-            AI and the web learning what
-            you want and delivering you a
-            Personalized web experience.
+          Individual Focus - People are building apps that people can communicate. Companies (or individuals) can build platforms that allow people to advertise services that leverage relationships between people.
         </h3>
     </td>
 </tr>
@@ -272,24 +262,19 @@
         <h3>
             In Web 1.0 search engines
             retrieve macro contents.
-            Search is very fast but
-            many times results are
-            inaccurate or more than
-            users can chew.
+            Search is very fast but occasionally results are
+            inaccurate.
         </h3>
     </td>
     <td width="20%">
         <h3>
             In Web 2.0 search engines
-            retrieve tags with micro contents
-            (Furl even retrieves tags with
-            macro contents). The process of
+            retrieve tags with micro contents. The process of
             tagging is manual, tedious and
             covers negligible percents of the
             WWW. Web 2.0 tags everything: pictures, links, events,
             news, Blogs, audio, video, and so
-            on. Google Base even retrieves
-            micro content texts.
+            on.
         </h3>
     </td>
     <td width="20%">
@@ -316,6 +301,11 @@
                 Web 1.0
             </h2>
         </td>
+        <td width="20%">
+          <h2>
+              Web 2.0
+          </h2>
+      </td>
 
             <td width="20%">
             <h2>
@@ -326,15 +316,19 @@
     <tr>
         <td width="20%">
             <h3>
-                if the user wants to find relevant data about "drugs - side effects" in web 1.0 the reuslts he will get
-                might be inaccurate and the user might need to enter a specific URL. 
+                if the user wants to find relevant data about "drugs - side effects" in web 1.0 he will need to have an exact url to a certain page with the requested data.
             </h3>
         </td>
+        <td width="20%">
+          <h3>
+              if the user wants to find relevant data about "drugs - side effects" in web 2.0 he can use a search engine, but may recieve many non relevent pages because there is no persnoal customization.
+          </h3>
+      </td>
 
             <td width="20%">
             <h3>
-                in Web 3.0 the user can write a query ("drugs - side effects") in any search engine available and the user will get results that contain words that belongs
-                to the query and semantic words as tags or web info, The result could be more precise search because tagging can solve part of the ambiguity that homonyms and synonyms introduce into the process of Search.
+                in Web 3.0 the user can write a query ("drugs - side effects") 
+                in any search engine available and the user will get results that are relevent not only in general, but also relevent for the specific person searching for the data.
             </h3>
         </td>
     </tr>
@@ -349,12 +343,65 @@
 
 <br/>
 <h2>Contact me &#9993</h2>
+  <table style="width: 50%; border:1px solid white;" class="forcon">
+    <!-- <form action="mailto:manomri@post.bgu.ac.il" method="post" enctype="text/plain"> -->
+    <tr>
+      <td  style = "color: white;" class="forcon">Name:<br> <input type="text"  id="sender_name"><br></td>
+    </tr>
+    <tr>
+      <td style = "color: white;" class="forcon">E-mail: <br><input type="text"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="sender_mail"><br></td>
+    </tr>
+    <tr>
+      <td style = "color: white;" class="forcon">Comment: <br><textarea id="mytextarea" ></textarea></td>
+    </tr>
+    <tr>
+      <td  class="forcon"><button class="button" id="send_email" onclick="sendMail();">Send</button>
+        <!-- <input type="submit" value="Send"> -->
+      </td>
+    </tr>
+  </table>
+
+<br/>
+<br/>
 
 <br/>
 <br/>
 <br/>
 </section>
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+  tinymce.init({
+    selector: "#mytextarea",
+    plugins: "emoticons",
+    toolbar: "emoticons",
+    toolbar_location: "bottom",
+    // https://www.tiny.cloud/docs/configure/editor-appearance/#menubar
+    menubar:false,
+    branding: false,
+    block_formats: 'Paragraph='
+    // 
+    
+  });
+</script>
 
+<script type="text/javascript">
+  function sendMail(){
+    var s_name = sender_name.value
+    var s_mail = sender_mail.value
+    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(s_mail)))
+    {
+      alert("You have entered an invalid email address!")
+      return (false)
+    }
+    var message = tinymce.get("mytextarea").getContent().slice(3,-4)
+    if (message === "")
+    {
+      alert("please enter a message")
+      return (false)
+    }
+    window.open("mailto:omermaim@post.bgu.ac.il?body=" + message);
+  }
+</script>
 
 <script type="text/javascript">
 $(function(){
