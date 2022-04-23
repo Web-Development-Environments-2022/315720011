@@ -144,34 +144,23 @@ h2 {
     font-size: 75%;
     border-radius: 15px 50px 30px;
   }
- /* input type submit and reset */
- input[type=submit],input[type=reset] {
-	width: 75%;
-	background-color: #2d545e;
-	color: #e1b382;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	font-size: 50%;
-  }
   
-  input[type=submit]:hover ,input[type=reset]:hover , .button:hover{
-	background-color: #12343b;
-	font-size: 55%;
+  button:hover{
+	background-color: white;
+	font-size: 85%;
+	color: black;
   }
   
   .button {
-	  width: 75%;
-	  background-color: #2d545e;
+	  width: 25%;
+	  background-color: #949797;
 	  border: none;
-	  color: #e1b382;
+	  color: #f7f6f5;
 	  padding: 14px 20px;
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
-	  font-size: 50%;
+	  font-size: 70%;
 	  margin: 8px 0;
 	  cursor: pointer;
 	  border-radius: 15px 50px 30px;
